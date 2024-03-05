@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+    font-size: 72px;
+    
+}
+p{
+    color: green;
+    font-size: 40px;
+}
+.Parrafoejemplo{
+    color: blueviolet;
+    font-size: 50px;
+}
+.tituloejemplo{
+    color: chocolate;
+    font-size: 60px;
+}
+#my-p{
+    color:gold;
+    font-size: 35px;
+}
+.card a{
+    color: black;
+}
+div ul li a {
+    color: blue;
+}

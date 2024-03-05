@@ -1,0 +1,8 @@
+"gitlens.repositories": [
+    {
+        "provider": "github",
+        "username": "omarjoa88",
+        "token": "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"
+    }
+]
+

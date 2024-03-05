@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    
+</style>
+<body>
+    <!--como vincular css, el primer metodo es vincularlo en el contenido
+    el primero es en el head con la etiqueta style en head afecta el h1 para colocar el titulo en rojo
+    h1 {
+        color: red;
+    }
+el segundo es el css inline 
+<h1 style="color:aqua">Hola mundo</h1>
+el tercer formato es el mas extendido pero es más eficiente
+Generar un archivo aparte que contiene todo el CSS e indicar al index utilizarlo, es lo mejor para evitar duplicar codigo
+se vinvula en el head 
+<link rel="stylesheet" href="style.css">
+la palabra link:css activa este comando
+-->
+    <h1>Hola mundo</h1>
+    <p> esta es la prueba Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ducimus nesciunt consequatur eligendi id corrupti cumque ipsa nulla. Reiciendis ut magnam porro autem quos, numquam laboriosam. Provident quos corrupti reprehenderit!</p>
+    <h2 class="tituloejemplo">este no esta afectado</h2>  
+    <p class="Parrafoejemplo">este parrafo fue afectado desde class en css usando el "." entendera que es una clase
+        cuando usamos "id" es que se esta dando un identificador que solo ese parrafo va a tener
+    </p>
+    <p class="Parrafoejemplo" id="my-p"> este parrafo fue por id y su identificador es "#" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, repudiandae. Sint perspiciatis enim sapiente fuga aliquid natus, accusamus ex earum doloremque eveniet placeat suscipit! Nulla alias mollitia error maxime optio.
+    </p>
+    <p>como afectar todos los titulos en el estilo general h1 le damos una "," y poner los otros h2, h3, ... 
+        tambien podemos poner class o ID.
+        tambien podemos poner por anidamiento es decir solo afectar un elmento si cumple una condición debe estar dentro de un div
+    </p>
+    <div class="card">
+        <a href="#" >tarjeta</a>
+    </div>
+    <p>tambien funciona para tablas ejemplo div ul li a </p>
+    
+</body>
+</html>

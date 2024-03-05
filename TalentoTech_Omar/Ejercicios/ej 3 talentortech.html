@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 3 formulario</title>
+    <!-- Crea un formulario de registro con campos para nombre y email. Incluye una etiqueta para cada campo y un botón de envío.-->
+</head>
+<body>
+    <main>
+    <h1>Formulario</h1>
+    <p>para crear un formulario se utiliza el comando <strong>form</strong> <br>
+    este comando genera dos atributos <em>action</em> que hace referencia a la url donde se enviaran los datos que se recopilan y <br>
+    <em>method</em> que indica el metodo de http se envian los datos </p>
+    <p>para utilizar el formulario se necesita <strong>label, input, y textarea</strong></p>
+    </main>
+    <form action="">
+       <table>
+            <tr style="text-align: right;">
+                <td >
+                    <label for="name">nombre:</label>
+                    <input type="text" name="Nombre de usuario" id="name" >
+                </td>
+            </tr>
+            <tr style="text-align: right;">
+                <td >
+                    <label for="email">correo electrónico:</label>
+                    <input type="email" name="correo electrónico" id="email" >
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td>
+                    <Button type="button">enviar</Button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+    <P>para crear el boton usamos la etiqueta <strong>button</strong></P>
+</body>
+</html>

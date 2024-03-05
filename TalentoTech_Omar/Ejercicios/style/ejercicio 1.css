@@ -1,0 +1,11 @@
+.Titulo{
+    color: blue;
+    background-color: black;
+    text-align: center;
+}
+.Texto{
+    color: orange;
+    background-color: black;
+    text-align-last: justify;
+    font-size: 25px;
+}
