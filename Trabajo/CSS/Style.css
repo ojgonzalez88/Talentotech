@@ -5,14 +5,14 @@
     font-size: 100%;
 }
 html{
-    background-color: #416D19 ;
+    background-color: #9BCF53 ;
 }
 body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 div{
-    background-color: #9BCF53;
+    background-color: #BFEA7C;
     margin: 0px;
     border: 0px;
     padding: 2%;
@@ -34,7 +34,7 @@ header{
     justify-content: left;
     align-items: center;
     width: auto;
-    background-color: blue;
+    background-color: #416D19;
     padding: 10px 10%;
 }
 nav ul{
@@ -52,4 +52,14 @@ nav ul li a li{
     display: flex;
     align-items: center;
     justify-content: space-between ;
+}
+.logoPW{
+    width: 4em;
+    display: flex;
+    align-items: center;
+    padding: auto;
+}
+.divHd{
+    background-color: #416D19;
+    display: flex;
 }
