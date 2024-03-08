@@ -1,0 +1,15 @@
+p {
+    color: red;
+    size:90px;
+    }
+.destacado {
+        background-color: rgb(10, 254, 91);
+        font-weight: bold;
+    }
+.resaltar{
+        font-style: italic;
+    }
+#secundario{
+    color: rgb(0, 204, 255);
+    size:6px;
+}

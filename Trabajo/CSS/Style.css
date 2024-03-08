@@ -5,14 +5,23 @@
     font-size: 100%;
 }
 html{
-    background-color: #9BCF53 ;
+    background-color: #fdfdfd ;
+}
+header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: auto;
+    background-color: #124076;
+    padding: 10px 10%;
 }
 body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #7F9F80;
 }
 div{
-    background-color: #BFEA7C;
+    background-color: #F9E897;
     margin: 0px;
     border: 0px;
     padding: 2%;
@@ -29,14 +38,7 @@ a{
 ul{
     list-style: none;
 }
-header{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: auto;
-    background-color: #416D19;
-    padding: 10px 10%;
-}
+
 nav ul{
     list-style: none;
 }
@@ -47,6 +49,9 @@ nav ul li{
 nav ul li a li{
     background-color: brown;
     color: brown;
+}
+h1{
+    font-size: 3em;
 }
 .head{
     display: flex;
