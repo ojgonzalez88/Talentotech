@@ -7,18 +7,79 @@
 html{
     background-color: #fdfdfd ;
 }
+ul ol{
+    list-style: none;
+}
+/*CSS correspondiente al header*/
 header{
     display: flex;
     justify-content: left;
-    align-items: center;
     width: auto;
     background-color: #124076;
     padding: 10px 10%;
 }
+header div {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: auto;
+        background-color: #124076;
+        padding: 10px 10%;
+    
+}
+nav{
+    margin: auto;
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color:#FFC374 ;
+    text-decoration: none;
+}
+.menu-horizontal >li:hover{
+    background-color:#7F9F80 ;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #124076;
+    text-align: left;
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+
+}
+.menu-vertical li:hover{
+    background-color: #7F9F80;
+}
+.menu-vertical li a{
+    display: block;
+	color: #F9E897;
+	text-decoration: none;
+	padding: 0px 0px 0px 0px;
+}
+nav a{
+    text-decoration: none;
+    color: #FFC374;
+}
+.menu-vertical li{
+
+}
+/*CSS correspondiente al body*/
 body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #7F9F80;
+    background-color: #F9E897;
 }
 div{
     background-color: #F9E897;
@@ -32,24 +93,9 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
-}
 
-nav ul{
-    list-style: none;
-}
-nav ul li{
-    display: inline-block;
-    padding: 0 20px;
-}
-nav ul li a li{
-    background-color: brown;
-    color: brown;
-}
+
+
 h1{
     font-size: 3em;
 }
@@ -64,7 +110,12 @@ h1{
     align-items: center;
     padding: auto;
 }
-.divHd{
-    background-color: #416D19;
-    display: flex;
+
+/*CSS correspondiente al fooder*/
+footer{
+    background-color: #7F9F80;
+}
+footer p{
+    align-items: center;
+    text-align: center;
 }
