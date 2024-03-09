@@ -5,7 +5,7 @@
     font-size: 100%;
 }
 html{
-    background-color: #fdfdfd ;
+    background-color: whitesmoke ;
 }
 ul ol{
     list-style: none;
@@ -79,7 +79,6 @@ nav a{
 body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #F9E897;
 }
 div{
     background-color: #F9E897;
@@ -87,17 +86,19 @@ div{
     border: 0px;
     padding: 2%;
 }
-p{
+body p{
     text-align: justify;
     text-indent:2em ;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 2%;
     
 }
 
 
 
 h1{
-    font-size: 3em;
+    font-size: 4em;
 }
 .head{
     display: flex;
