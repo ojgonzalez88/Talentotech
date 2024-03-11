@@ -162,6 +162,7 @@ div.container{
 .slider li:target{
     opacity:1;
 }
+/*esta en construcción para poder centrar las noticias para todos*/
 /*CSS correspondiente al fooder*/
 footer{
     background-color: #7F9F80;
