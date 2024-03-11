@@ -13,19 +13,30 @@ ul ol{
 /*CSS correspondiente al header*/
 header{
     display: flex;
-    justify-content: left;
-    width: auto;
     background-color: #124076;
-    padding: 10px 10%;
+justify-content: center;
+    align-items: center;
 }
 header div {
         display: flex;
-        justify-content: left;
         align-items: center;
-        width: auto;
         background-color: #124076;
-        padding: 10px 10%;
-    
+        padding: 0;
+        margin: 0;
+        justify-content: space-between
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.logoPW{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border: 0;
+    margin: 0;
 }
 nav{
     margin: auto;
@@ -37,6 +48,8 @@ nav{
     list-style: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 0%;
 }
 .menu-horizontal > li > a{
     display: block;
@@ -95,23 +108,60 @@ body p{
     
 }
 
-
-
 h1{
     font-size: 4em;
 }
-.head{
-    display: flex;
+/*menu de noavegación imagenes*/
+div.container{
+    justify-content: center;
     align-items: center;
-    justify-content: space-between ;
 }
-.logoPW{
-    width: 4em;
-    display: flex;
-    align-items: center;
-    padding: auto;
+.container{
+    width: 730px;
+    height: 300px;
+    padding: 10px;
+ 
 }
-
+.slider{
+    position:relative;
+    list-style: none;
+    width: 730px;
+    height: 300px;
+}
+.slider li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    width: inherit;
+    height: inherit;
+}
+.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.slider li:first-child{
+    opacity: 1;
+}
+.menu-slider li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+.menu-slider li a{
+    background-color: #124076;
+    color: #FFC374;
+    text-decoration: none;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: inline-block ;
+}
+.slider li:target{
+    opacity:1;
+}
 /*CSS correspondiente al fooder*/
 footer{
     background-color: #7F9F80;
