@@ -90,14 +90,13 @@ nav a{
 }
 /*CSS correspondiente al body*/
 body{
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 div{
-    background-color: #F9E897;
     margin: 0px;
     border: 0px;
     padding: 2%;
+    justify-content: center;
 }
 body p{
     text-align: justify;
@@ -109,18 +108,17 @@ body p{
 }
 
 h1{
+    text-align: center;
     font-size: 4em;
 }
 /*menu de noavegación imagenes*/
-div.container{
-    justify-content: center;
-    align-items: center;
-}
+
 .container{
     width: 730px;
     height: 300px;
     padding: 10px;
- 
+ justify-content: center;
+ align-items: center;
 }
 .slider{
     position:relative;
@@ -163,6 +161,47 @@ div.container{
     opacity:1;
 }
 /*esta en construcción para poder centrar las noticias para todos*/
+/*Menu navegación body*/
+.divbody{
+    display: flex;
+    padding: 0;
+    align-items: star;
+    justify-content: flex-start;
+}
+.divbody :first-child{
+    padding-top:2px ;
+    padding-left:0;
+    padding-bottom: 0;
+}
+.divmenu{
+    margin: 0;
+    border: 0;
+    background-color: #FFC374;
+    width: 20%;
+    align-items:center;
+    justify-content:start;
+    font-size: 2em;
+}
+.ulmenu{
+list-style: none;
+text-decoration: none;   
+}
+.ulmenu a{
+    text-decoration: none;   
+    }
+/*CSS mapa interactivo*/
+.mapadiv{
+    width: inherit;
+    margin: auto
+}
+.mapadiv path{
+    fill: #124076;
+    stroke: #FFC374;
+    stroke-width: 2px;
+}
+.mapadiv :hover{
+    fill: chartreuse;
+}
 /*CSS correspondiente al fooder*/
 footer{
     background-color: #7F9F80;
