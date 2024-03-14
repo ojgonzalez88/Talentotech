@@ -1,8 +1,8 @@
-/*.color1 {color: #242d33;}
-.color2 {color: #475a7b;} texto
-.color3 {color: #7e9c00;} fondo de body y letras menu header
+.color1 {color: #242d33;}
+.color2 {color: #475a7b;} /*texto*/
+.color3 {color: #7e9c00;} /*fondo de body y letras menu header*/
 .color4 {color: #ede641;}
-.color5 {color: #ffff9a;}*/
+.color5 {color: #ffff9a;}
 
 *{
     margin: 0;
@@ -73,13 +73,12 @@ nav{
 
 /*CSS correspondiente al body*/
 body{
-    background-color:#ede641 ;
+    background-color: whitesmoke ;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 div{
     margin: 0px;
     border: 0px;
-    padding: 2%;
     justify-content: center;
 }
 body p{
@@ -97,58 +96,13 @@ h1{
     font-size: 4em;
 }
 /*menu de noavegación imagenes*/
-
-.container{
- flex-direction: column;
- justify-content:center;
- align-items:center;
- display:flex;
-}
-.slider{
-    position:relative;
-    list-style: none;
-    width: 730px;
-    height: 300px;
-}
-.slider li{
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity .5s;
-    width: inherit;
-    height: inherit;
-}
-.slider li img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.slider li:first-child{
-    opacity: 1;
-}
-.menu-slider li{
-    list-style: none;
-    text-align: center;
-    display: inline-block;
-}
-.menu-slider li a{
-    background-color: #124076;
-    color: #FFC374;
-    text-decoration: none;
-    border-radius: 100%;
-    width: 20px;
-    height: 20px;
-    display: inline-block ;
-}
-.slider li:target{
-    opacity:1;
-}
 /*esta en construcción para poder centrar las noticias para todos*/
 /*Menu navegación body*/
 .divbody{
     display: flex;
     padding: 0;
+    margin: 0;
+    border: 0;
     align-items: star;
     justify-content: flex-start;
 }
@@ -158,37 +112,48 @@ h1{
     padding-bottom: 0;
 }
 .divmenu{
-    margin: 0;
-    border: 0;
-    background-color:#ede641;
+    margin: 0; 
+    background-color:#7e9c00;
+    color: #ede641;
     width: 20%;
-    border-left: 0px;
-    border: solid;
-    border-color: #242d33;
     align-items:center;
     justify-content:start;
     font-size: 2em;
 }
 .ulmenu{
 list-style: none;
-text-decoration: none;   
+text-decoration: none;
 }
 .ulmenu a{
-    text-decoration: none;   
+    text-decoration: none;
+    color: #ede641;   
     }
+.cuerpo{
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+}
 /*CSS mapa interactivo*/
 .mapadiv{
     width: inherit;
-    margin: auto
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
 }
 .mapadiv path{
-    fill: #124076;
-    stroke: #FFC374;
+    fill: #7e9c00;
+    stroke: #242d33;
     stroke-width: 3px;
 }
 .mapadiv :hover{
-    fill: #ffff9a;
+    fill: #242d33;
 }
+.mapadiv g text{
+    fill: #ffff9a;
+    font-family:;
+}
+.divbody
 /*CSS correspondiente al fooder*/
 footer{
     background-color: #242d33;
@@ -197,4 +162,7 @@ footer{
 footer p{
     align-items: center;
     text-align: center;
+    background-color: #242d33;
+    color: #7e9c00;
+    margin: 0;
 }
