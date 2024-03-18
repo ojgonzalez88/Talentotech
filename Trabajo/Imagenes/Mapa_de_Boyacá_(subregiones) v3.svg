@@ -1,47 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cundinamarca</title>
-    <link rel="stylesheet" href="./CSS/Style Boyaca.css">
-</head>
-<header>
-    <div>
-        <nav>
-            <ul class="menu-horizontal">
-                <li><a href="./index.html"><img src="./Imagenes/Logo1.png" alt="logo pagina web" class="logoPW">
-                    </a></li>
-                <li><a href="./biodiversidad.html">Biodiversidad</a>
-                </li>
-                <li><a href="./Boyaca.html">Boyaca</a>
-                </li>
-                <li><a href="./Cundinamarca.html">Cundinamarca</a>
-                </li>
-                <li><a href="./Contactanos.html">Contactanos</a>
-                </li>
-
-            </ul>
-        </nav>
-    </div>
-</header>
-
-<body>
-   <div>
-      <div class="divbody">
-         <div class="divmenu">
-             <ul class="ulmenu">
-                 <li><a href="./Cundinamarca.html">Mapa</a></li>
-                 <li><a href="./Cundinamarca Fauna.html">Fauna</a></li>
-                 <li><a href="./Cundinamarca Flora.html">Flora</a></li>
-             </ul>
-      </div>
-      <div class="cuerpo"> 
-         <h1>BOYACA</h1>
-               
-         <div class="mapadiv">
-                 <svg
+<svg
    width="650"
    height="577"
    id="svg2"
@@ -411,17 +371,3 @@
          style="stroke-width:0.399891">Fronterizo</tspan></text>
   </g>
 </svg>
-
-         </div>
-         
-      </div>
-   
-    </div>
-   </div>
-</body>
-<footer>
-    <p>&copy; 2024 Biodiversidad en los departamentos de Boyacá y Cundinamarca. Todos los derechos reservados. <br>
-        Creador Omar González.</p>
-</footer>
-
-</html>
