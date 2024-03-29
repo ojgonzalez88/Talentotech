@@ -16,6 +16,9 @@ html{
 ul ol{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 /*CSS correspondiente al header*/
 header{
     display: flex;
@@ -131,7 +134,9 @@ text-decoration: none;
 .cuerpo{
     width: 100%;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 /*CSS mapa interactivo*/
 .mapadiv{
@@ -153,7 +158,18 @@ text-decoration: none;
     fill: #ffff9a;
     font-family:;
 }
-.divbody
+.galeria{
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+    color: #242d33
+}
+
 /*CSS correspondiente al fooder*/
 footer{
     background-color: #242d33;

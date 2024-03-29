@@ -18,3 +18,11 @@ function ejemplolet(){
     console.log(w)
 }
 console.log(ejemplolet())
+const Tax_Rate = 0.1;
+const person ={
+    name: 'jhon',
+    age: 30
+};
+console.log(person)
+person.age =31;
+console.log(person)

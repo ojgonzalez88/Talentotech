@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicios javascrip</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="java.js">
+</head>
+<body>
+    <h2>Enunciado</h2>
+    <p>Palindromo: Realiza un script que determine si la cadena de texto que se le pide al usuario es un palíndromo, es decir, si se lee de la misma forma desde la izquierda y desde la derecha</p>
+    
+    <h1>Comprobar Palíndromo</h1>
+
+        <table cellspacing="0">
+            <tr>
+                <th>Normal</th>
+                <th>Invertida</th>
+            </tr>
+        <script>
+                var input = prompt('Introduzca la frase:');
+                var input_limpia = input.toLowerCase().trim().replace(/\s/g,'');
+
+                document.write('<br />La frase introducida es → ' + input + '<br /><br />');
+                document.write('<br />La frase limpia es → ' + input_limpia + '<br /><br />');
+
+                for (i=0, j=(input_limpia.length-1); i<input_limpia.length; i++, j--) {
+                    document.write('<tr><td>' + input_limpia[i] + '</td>' + '<td>' + input_limpia[j] + '</td></tr>');
+                    if (input_limpia[i] == input_limpia[j]) {
+                        continue;
+                    } else {
+                        alert('No coincide');
+                        break;
+                    }
+                }
+        </script>
+
+</body>
+</html>
